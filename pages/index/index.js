@@ -15,8 +15,7 @@ Page({
     pagesUrls: [],
     pageIndexs: [],
     pageNumber: 0,
-    tagPercent: 100,
-    showButton: true
+    tagPercent: 100
   },
 
   /**
@@ -53,7 +52,6 @@ Page({
       pageIndexs: newPageIndexs,
       pageNumber: length,
       tagPercent: 100 / length,
-      showButton: app.globalData.showButton
     })
     wx.showLoading({
       title: '拼命加载中....',
