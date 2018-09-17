@@ -138,16 +138,6 @@ Page({
       complete: function (res) { },
     })
   },
-
-  //从前的版本
-  menu: function (e) {
-    wx.navigateTo({
-      url: '../menu/menu',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
-  },
   // 读取图片成功
   imageOnLoad: function(){
     wx.hideLoading()

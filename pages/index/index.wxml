@@ -9,4 +9,3 @@
     </swiper-item>  
   </block>  
 </swiper>
-<button hidden='true' wx:if='{{showButton}}' class='previous' bindtap='menu'>Previous Documents</button>

@@ -1,9 +1,0 @@
-<!--pages/menu/menu.wxml-->
-<scroll-view scroll-y>
-  <block wx:for="{{menu}}" wx:key="*this">
-    <view class='menuItem' id='{{index}}' bindtap='dashboard' style='font-size:{{fontsize}}'>
-      <view>{{item.date}} .</view>
-      <view>{{item.paragraph}}</view>
-    </view>
-  </block>
-</scroll-view>
