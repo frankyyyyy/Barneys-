@@ -1,0 +1,44 @@
+/**index.wxss**/
+page{
+  background-color: #F5F5F5
+}
+.swiper-tab{
+  background-color: white;
+	width: 100%;
+	border-bottom: 2rpx solid #777777;
+	text-align: center;
+	line-height: 60rpx;
+  }
+.swiper-tab-list{  
+  font-size: 28rpx;
+  display: inline-block;
+	color: #777777;
+}
+.on{
+  color: #da7c0c;
+	border-bottom: 5rpx solid #da7c0c;
+}
+.swiper{
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  left: 0;
+  top: 7%;
+}
+.swiper image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.previous{
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+}
