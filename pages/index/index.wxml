@@ -1,11 +1,13 @@
-<!--index.wxml-->
+<!--pages/index/index.wxml-->
+
 <view class="swiper-tab">
   <view wx:for="{{pageIndexs}}" wx:key="*this" class="swiper-tab-list {{currentSelect== (item-1) ? 'on' : ''}}" style="width: {{tagPercent}}%" data-current="{{item-1}}" bindtap="switchPage">第{{item}}页</view>
 </view>
 <swiper class="swiper" current="{{currentSelect}}" indicator-dots="true" interval="5000" duration="1000" bindchange='bindSwiper'>  
-  <block wx:for="{{pagesUrls}}" wx:key="*this" wx:for-index="index">  
+  <block wx:for="{{pagesId}}" wx:key="*this" wx:for-index="index">  
     <swiper-item>  
       <image src="{{item}}" data-index='{{index}}' bindtap='previewImage' bindload='imageOnLoad'/>  
-    </swiper-item>  
-  </block>  
+    </swiper-item> 
+  </block>
 </swiper>
+<button class='join' bindtap='authorize' open-type='getUserInfo'>Please press this button to join family.</button>
