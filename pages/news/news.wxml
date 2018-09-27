@@ -1,0 +1,12 @@
+<!--pages/news/news.wxml-->
+<scroll-view scroll-y='true' enable-back-to-top='true' scroll-top='{{scrollYValue}}' scroll-with-animation='true'>
+  <view wx:for='{{content}}'>
+    <view class='block'>
+      {{item.title}}
+    </view>
+    <view class='line'></view>
+  </view>
+</scroll-view>
+<image class='backtotop' src='../../icons/backtotop.png' bindtap='backtotop'/>
+<view class='linetop'></view>
+<view class='linebottom'></view>

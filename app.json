@@ -1,11 +1,35 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/news/news"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Barneys Church",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Content",
+        "iconPath": "icons/bible.png",
+        "selectedIconPath": "icons/bible_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "Whats New ~",
+        "iconPath": "icons/file.png",
+        "selectedIconPath": "icons/file_selected.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "Contact",
+        "iconPath": "icons/telegram.png",
+        "selectedIconPath": "icons/telegram_selected.png"
+      }
+    ]
   }
 }

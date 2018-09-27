@@ -10,4 +10,3 @@
     </swiper-item> 
   </block>
 </swiper>
-<button class='join' bindtap='authorize' open-type='getUserInfo'>Please press this button to join family.</button>

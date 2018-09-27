@@ -1,0 +1,2 @@
+<!--pages/contact/contact.wxml-->
+<button wx:if='{{!authorized}}' class='join' open-type='getUserInfo' bindgetuserinfo="onGotUserInfo">Please press this button to authorize.</button>

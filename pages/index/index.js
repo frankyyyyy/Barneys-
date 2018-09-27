@@ -48,7 +48,7 @@ Page({
           pagesId: addresses,
           pageIndexs: newPageIndexs,
           pageNumber: count,
-          tagPercent: 100 / count,
+          tagPercent: 100 / count
         })
       }
     })
@@ -131,17 +131,5 @@ Page({
   // 读取图片成功
   imageOnLoad: function(){
     wx.hideLoading()
-  },
-  // 授权按钮功能
-  authorize: function(e){
-    wx.getUserInfo({
-      withCredentials: true,
-      lang: '',
-      success: function(res) {
-        console.log(res)
-      },
-      fail: function(res) {},
-      complete: function(res) {},
-    })
   }
 })

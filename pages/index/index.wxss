@@ -20,10 +20,20 @@ page{
 }
 .swiper{
   position: absolute;
-  height: 85%;
+  height: 92%;
   width: 100%;
   left: 0;
   top: 7%;
+}
+.swiper movable-area{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.swiper movable-view{
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 .swiper image{
   position: absolute;
